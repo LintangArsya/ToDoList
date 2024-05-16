@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #006769;
+}
+.kiri{
+    
+    height: 2800px;
+    width: 500px;
+    margin-left: 425px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding: 5%;
+    border-radius: 35px;
+    background-color: #40a578;
+    text-align: center;
+}
+.h31{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 250px;
+    height: 35px;
+    border-radius: 35px;
+}
+.tanggal{
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 35px;
+}
+.button1{
+    margin-top: 10px;
+    width: 100px;
+    background-color: red;
+}
+.button2{
+    margin-top: 10px;
+    width: 100px;
+    background-color: greenyellow;
+}
+.tabel1{
+    background-color: #9dde8b;
+    margin: 85px;
+    padding: 3%;
+    border-radius: 45px;
+}
+.btn1{
+    width:70px ;
+    background-color: red;
+}
+.btn2{
+    width: 70px;
+    background-color: yellow;
+}
+.btn3{
+    width: 70px;
+    background-color: greenyellow;
+}
+
+@media screen  and (max-width:1520px){
+    .kiri{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 3000px;
+        width: 80%;
+        background-color: #40a578;
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
